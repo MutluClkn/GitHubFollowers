@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1792462B60F9270056F9D6 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1792452B60F9270056F9D6 /* Follower.swift */; };
+		FA1792482B60FA790056F9D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1792472B60FA790056F9D6 /* User.swift */; };
 		FA28D8742B565C6A00E91BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D8732B565C6A00E91BF8 /* AppDelegate.swift */; };
 		FA28D8762B565C6A00E91BF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D8752B565C6A00E91BF8 /* SceneDelegate.swift */; };
 		FA28D87D2B565C6C00E91BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28D87C2B565C6C00E91BF8 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1792452B60F9270056F9D6 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		FA1792472B60FA790056F9D6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA28D8702B565C6A00E91BF8 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA28D8732B565C6A00E91BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA28D8752B565C6A00E91BF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		FA1792442B60F9200056F9D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA1792452B60F9270056F9D6 /* Follower.swift */,
+				FA1792472B60FA790056F9D6 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FA28D8672B565C6A00E91BF8 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		FA28D8722B565C6A00E91BF8 /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				FA1792442B60F9200056F9D6 /* Model */,
 				FA1792432B60D9160056F9D6 /* Extensions */,
 				FA1792422B60D90E0056F9D6 /* CustomViews */,
 				FA1792412B60D9060056F9D6 /* Screens */,
@@ -199,7 +213,9 @@
 				FA28D88C2B566F7700E91BF8 /* GFButton.swift in Sources */,
 				FA28D8882B5663D300E91BF8 /* SearchVC.swift in Sources */,
 				FAB873E92B58EA66000496FB /* GFAlertVC.swift in Sources */,
+				FA1792482B60FA790056F9D6 /* User.swift in Sources */,
 				FAB873E72B58E9AE000496FB /* GFBodyLabel.swift in Sources */,
+				FA1792462B60F9270056F9D6 /* Follower.swift in Sources */,
 				FAB873E52B58E26E000496FB /* GFTitleLabel.swift in Sources */,
 				FAA8CE4D2B56EBFC00A2E646 /* FollowerListVC.swift in Sources */,
 				FA28D8742B565C6A00E91BF8 /* AppDelegate.swift in Sources */,
