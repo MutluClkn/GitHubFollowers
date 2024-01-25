@@ -64,7 +64,6 @@
 				FA28D8752B565C6A00E91BF8 /* SceneDelegate.swift */,
 				FA28D87C2B565C6C00E91BF8 /* Assets.xcassets */,
 				FA28D87E2B565C6C00E91BF8 /* LaunchScreen.storyboard */,
-				FA28D8812B565C6C00E91BF8 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -133,6 +132,7 @@
 				FA1792422B60D90E0056F9D6 /* CustomViews */,
 				FA1792412B60D9060056F9D6 /* Screens */,
 				FA1792402B60D8F70056F9D6 /* Support */,
+				FA28D8812B565C6C00E91BF8 /* Info.plist */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -361,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T8B4RZKP3U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitHubFollowers/Support/Info.plist;
+				INFOPLIST_FILE = GitHubFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -393,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T8B4RZKP3U;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitHubFollowers/Support/Info.plist;
+				INFOPLIST_FILE = GitHubFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
